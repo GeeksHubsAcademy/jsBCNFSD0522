@@ -28,6 +28,35 @@ function Resta (numero1,numero2) {
 
 };
 
+function Suma (numero1, numero2) {
+
+    let resultado = numero1 + numero2;
+
+    return resultado;
+
+}
+
 let muestra = Resta(100,49);
 
 console.log(muestra);
+
+let variableLionel = 5;
+
+variableLionel++;
+
+console.log(variableLionel);
+
+variableLionel--;
+
+let numeroFavoritoLionel = 5;
+let numeroFavoritoSanti = 13;
+
+let resultadoModulo = numeroFavoritoSanti % numeroFavoritoLionel;
+
+console.log(resultadoModulo);
+
+if(resultadoModulo !== 0){
+    console.log("Era impar");
+}else{
+    console.log("Es par");
+}
