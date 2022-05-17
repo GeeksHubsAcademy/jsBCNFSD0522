@@ -189,9 +189,9 @@
 
 //OPERADOR TERNARIO
 
-let edad = 18;
+// let edad = 18;
 
-let verPeliculaTerror;
+// let verPeliculaTerror;
 
 // Opción 1 SIN OPERADOR TERNARIO
 // if (edad >= 18){
@@ -201,19 +201,46 @@ let verPeliculaTerror;
 // }
 
 
-// // Opción 2
-verPeliculaTerror = (edad >= 18) ? 'SI' : 'NO';
-/* 
-    En este caso, si se cumple la condicion entre paréntesis,
-    asignaremos a la variable verPeliculaTerror , el valor que 
-    viene dado despúes del interrogante, si por el contrario la condición
-    diese false, daremos el valor que viene tras los dos puntos.
-*/
+// // // Opción 2
+// verPeliculaTerror = (edad >= 18) ? 'SI' : 'NO';
+// /* 
+//     En este caso, si se cumple la condicion entre paréntesis,
+//     asignaremos a la variable verPeliculaTerror , el valor que 
+//     viene dado despúes del interrogante, si por el contrario la condición
+//     diese false, daremos el valor que viene tras los dos puntos.
+// */
 
-let Ivan = 26;
+// let Ivan = 26;
 
-let ligue;
+// let ligue;
 
-ligue = (Ivan >= 22) ? 'Si, ven conmigo' : 'Nooo, llamo a los Mossos';
+// ligue = (Ivan >= 22) ? 'Si, ven conmigo' : 'Nooo, llamo a los Mossos';
 
-console.log(ligue);
+// console.log(ligue);
+
+// let contador = 100000000000;
+
+// while (contador <= 20){
+
+//     contador++;
+
+// };
+
+// console.log("Hemos salido del bucle, contador vale..", contador);
+
+// let contador = 11;
+
+// do {
+
+//     console.log("Amigoooooo, contador vale....",contador);
+//     contador++;
+
+// } while (contador <= 10);
+
+//Bucle FOR
+
+// for(let i = 1; i <= 10; i++){
+
+//     console.log(i);
+
+// }
