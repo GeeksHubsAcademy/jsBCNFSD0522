@@ -244,3 +244,143 @@
 //     console.log(i);
 
 // }
+
+// let radio = parseInt(prompt("Dime el radio"));
+
+// const pi = 3.14;
+
+// let resultado = pi * (radio**2);
+
+// console.log(resultado);
+
+
+// let numero = parseInt(prompt("Dame un número"));
+
+// // if(numero % 2 === 0){
+// //     console.log("el número sí es divisible entre 2");
+// // }else {
+// //     console.log("cuidado, el número no es divisible entre 2");
+// // };
+
+// //Con ternaria
+// resultado = ((numero % 2) === 0) ? "Si es divisible" : "No es divisible";
+
+// console.log(resultado);
+
+//FUNCIONES
+
+// function permisoPeli (edad,pelicula) {
+
+//     switch (pelicula) {
+
+//         case 'el padrino':
+//             if(edad >= 13){
+//                 console.log("si puedes verla");
+//             }else{
+//                 console.log("no puedes verla");
+//             }
+//         break;
+
+//         case 'kill bill':
+//             if(edad >= 18){
+//                 console.log("si puedes verla");
+//             }else{
+//                 console.log("no puedes verla");
+//             }
+//         break;
+
+//         case 'regreso al futuro':
+//             if(edad >= 7){
+//                 console.log("si puedes verla");
+//             }else{
+//                 console.log("no puedes verla");
+//             }
+//         break;
+
+//         case 'viernes 13':
+//             if(edad >= 18){
+//                 console.log("si puedes verla");
+//             }else{
+//                 console.log("no puedes verla");
+//             }
+//         break;
+
+//         default: 
+
+//             console.log("No tenemos esa peli");
+
+//         break;
+//     }
+// }
+
+// let edad = parseInt(prompt("Dime tu edad"));
+
+// let pelicula = prompt("Dime la película").toLowerCase();
+
+// permisoPeli(edad,pelicula);
+
+
+//FUNCIONES ANÓNIMAS
+// let variable = function(numero) { return numero**2};
+
+// let resultado = variable(6);
+
+// console.log(resultado)
+
+//FUNCIONES
+
+// function Cajero (cantidad) {
+
+//     if(cantidad > 999) {
+
+//         return "Hola, soc hisenda";
+//     }else {
+//         return "Aquí tienes tu dinero gastador";
+//     }
+
+// }
+
+// let resultado = Cajero(500);
+
+// console.log(resultado);
+
+
+//ARRAY
+
+// let hobbiesIvan = ['Korfball','Videojuegos','Ping Pong',26];
+
+// for(let i = 0; i < hobbiesIvan.length; i++){
+
+//     console.log(hobbiesIvan[i]); 
+
+// }
+
+
+// let i = 1;
+// while (i < 100){
+//     console.log(i);
+//     i++;
+// };
+
+//PROPIEDADES DE ARRAY
+
+let alumnos = ["Marc","Ivan","Lionel","Santi","Ibra","Luciano","Marc"];
+
+let alumnas = ["Paula","Ivana","Lia","Laura","Alba","Esther","Sandra"];
+// alumnos.push("Lola");
+
+// alumnos.unshift("Pablo");
+
+// let nuevoArray = alumnos.concat(alumnas);
+
+// let juntos = alumnos.join("$");
+// console.log(juntos);
+
+// let nuevoArray = alumnos.slice(2,5);
+
+// console.log(nuevoArray);
+
+//Esta sería la forma correcta de introducir un elemento 
+//en un array en la posición que queramos.
+alumnos.splice(3,0,"Paulo");
+console.log(alumnos);
